@@ -1,0 +1,286 @@
+.modalReturnLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-control[disabled], fieldset[disabled] .form-control{
+    cursor: text;
+}
+
+.my_load_img{
+    margin: 0 auto;
+	width: 25px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #777;
+}
+
+.form-control:focus, .form-control:focus ~ .input-group-btn {
+    border-color: #66afe9;
+    /*border: 1px solid #66afe9;*/
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+	padding-bottom: 0;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+	.nav li > form {
+	    padding: 3px;
+	}
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+.mydelim{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .mydelim{
+        display:none !important;
+    }
+}
+.navbar-inverse {
+	background-color: #ff7b00;
+	border-color: #bfbfbf;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: #ff6b00;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #ff7b00;
+	border-color: #bfbfbf;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #edffec;
+}
+.navbar-inverse .navbar-brand{
+    color: #edffec;
+}
+.navbar-inverse .btn-link{
+	color: #edffec;
+}
+.navbar-inverse{
+  background-image: none;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+  background-image: none;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color: #ff5600;
+}
+
+div.form-group button[type="submit"]{
+	margin-bottom: 5px;
+}
+
+.clock{
+    margin: 10px 0;
+    font-size: large;
+}
+.stopwatchcontainer .btn-success:hover{
+    background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
+    background-image: -o-linear-gradient(top, #5cb85c 0%, #419641 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641));
+    background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #3e8f3e;
+    background-position: 0;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.btn-primary {
+	background-image: linear-gradient(to bottom, #ffff00 0%, #ffcd33 100%);
+	color: #424242;
+	border: 0 solid transparent;
+	border-radius: 30px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+	background-color: #ffcd33;
+	color: #424242;
+	border-color: #bfbfbf;
+}
+.btn-success{
+	background-image: linear-gradient(to bottom, #ff7b00 0%, #ff5600 100%);
+	/*border-color: #bfbfbf;*/
+	border: 0 solid transparent;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active{
+	background-color: #ff4b00;
+	border-color: #bfbfbf;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #bfbfbf;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #bfbfbf;	
+}
+
+
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  background-color: #ff4b00;
+  border-color: #bfbfbf;
+}
+
+.help-block{
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: -10px;
+}
+#form-lead input[type="text"] {
+    height: 28px;
+    padding: 2px 8px;
+    font-size: 14px;
+    color: #555;
+    border-radius: 3px;
+}
+#form-lead  .control-label {
+    font-size: 14px;
+}
+#form-lead .form-group {
+    margin-bottom: 7px;
+}
+
+#form-lead label {
+    margin-bottom: -1px;
+}
+
+.table > thead > tr > td{
+    padding: 2px 5px;
+    line-height: 1.42857143;
+}
+td>.form-control {
+    height: 24px;
+    padding: 2px 5px;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: white;
+	}
+}
+@media (max-width: 415px){
+	.navbar-brand {
+		max-width: 70%;
+		padding-top: 6px;
+	}
+	
+}
