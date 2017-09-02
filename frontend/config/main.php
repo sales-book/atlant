@@ -33,6 +33,9 @@ return [
                 'lead-form' => 'site/lead-form',
                 'main' => 'lk/index',
                 '/' => 'site/index',
+
+                'kep' => 'site/kep',
+
                 'workoutsets' => 'workoutsets/workoutsets',
                 'workoutsets/' => 'workoutsets/workoutsets',
                 'allexercisenames' => 'workoutsets/allexercisenames',
