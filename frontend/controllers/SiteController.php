@@ -14,6 +14,7 @@ use frontend\models\SignupForm;
 use frontend\models\LeadForm;
 use frontend\models\ContactForm;
 use common\models\User;
+use common\models\Sitemap;
 
 /**
  * Site controller
@@ -75,6 +76,21 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
+    }
+    //Карта сайта. Выводит в виде XML файла.
+    public function actionSitemap(){
+        $sitemap = new Sitemap();
+        //Если в кэше нет карты сайта
+        //if (!$xml_sitemap = Yii::$app->cache->get('sitemap')) {
+            //Получаем мыссив всех ссылок
+            $urls = $sitemap->getUrl();
+            //Формируем XML файл
+            $xml_sitemap = $sitemap->getXml($urls);
+            // кэшируем результат
+            Yii::$app->cache->set('sitemap', $xml_sitemap, 3600*12);
+        //}
+        //Выводим карту сайта
+        return $sitemap->showXml($xml_sitemap);
     }
 
     public function actionKep()

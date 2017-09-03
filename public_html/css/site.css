@@ -205,6 +205,12 @@ div.form-group button[type="submit"]{
 	color: #424242;
 	border-color: #bfbfbf;
 }
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #ffcd33;
+    color: #424242;
+    border-color: #bfbfbf;
+}
 .btn-success{
 	background-image: linear-gradient(to bottom, #ff7b00 0%, #ff5600 100%);
 	/*border-color: #bfbfbf;*/
@@ -220,7 +226,6 @@ div.form-group button[type="submit"]{
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	border-color: #bfbfbf;	
 }
-
 
 .btn-success:active:hover,
 .btn-success.active:hover,

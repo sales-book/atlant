@@ -21,10 +21,9 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<meta name="yandex-verification" content="9a1378fb99901482" />
-    <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-
     <?php $this->head() ?>
+    <?= Html::csrfMetaTags() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -33,7 +32,8 @@ AppAsset::register($this);
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandUrl' => 'купить контрольно-кассовую технику',
+        //'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
@@ -42,16 +42,15 @@ AppAsset::register($this);
 	if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Отправить заявку', 'url' => ['/lead-form']];
     }
-	
-	
+
 	$menuItems[] = ['label' => 'Услуги', 'items' => [
-		['label' => 'Автоматизация бизнеса', 'url' => ['/']],
-		['label' => 'Аттестация объектов информатизации', 'url' => ['/attestation']],
-		['label' => 'Средства вибороакустической защиты', 'url' => ['/svaz']],
-		['label' => 'Лицензирование по требованиям ФСБ', 'url' => ['/licensing']],
-		['label' => 'Выдача электронных подписей', 'url' => ['/kep']],
-		['label' => 'Сопровождение торгов', 'url' => ['/torgi']],
-		['label' => 'Выдача банковской гарантии', 'url' => ['/torgi']],
+		['label' => 'Автоматизация бизнеса', 'url' => ['/купить кассу ККТ']],
+		['label' => 'Аттестация объектов информатизации', 'url' => ['/аттестация объектов информатизации']],
+		['label' => 'Средства вибороакустической защиты', 'url' => ['/средства вибороакустической защиты Бекар']],
+		['label' => 'Лицензирование по требованиям ФСБ', 'url' => ['/лицензирование по требованиям ФСБ']],
+		['label' => 'Получить электронную подпись', 'url' => ['/электронная подпись для торгов ОФД ЕГАИС']],
+		['label' => 'Сопровождение торгов', 'url' => ['/сопровождение торгов']],
+		['label' => 'Выдача банковской гарантии', 'url' => ['/банковская гарантия']],
 	]];
 
     $menuItems[] = ['label' => 'Контакты', 'url' => ['/contact']];

@@ -1,2 +1,9 @@
 User-agent: *
-Disallow:
+
+Disallow: /lk
+Disallow: /lead-form
+Disallow: /lead
+Disallow: /lead-sended
+Disallow: /login
+Disallow: /signup
+Disallow: /request-password-reset

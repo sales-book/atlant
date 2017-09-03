@@ -2,14 +2,14 @@
 
 /* @var $this yii\web\View */
 
-$this->title = Yii::$app->params['shortName'] . " - купить кассовый аппарат ККТ, фискальный накопитель, модернизация ККТ, обновить кассу";
+$this->title = Yii::$app->params['shortName'] . " - купить кассовый аппарат ККТ, модернизация ККТ, обновить кассу";
 $this->registerMetaTag([
 	'name' => 'description',
-	'content' => 'Купить кассу, фискальные накопители, установка и сервисное обслуживание контрольно-кассового оборудования по всей России. Звоните!'
+	'content' => 'Купить кассу, установка и сервисное обслуживание контрольно-кассового оборудования по всей России. Звоните!'
 ]);
 $this->registerMetaTag([
 	'name' => 'keywords',
-	'content' => 'купить ККТ, купить фискальный накопитель, купить ККМ, купить кассу недорого, модернизация ККТ, модернизация ККМ, 54 ФЗ, обновить кассу, купить кассу, обновить кассовый аппарат, обновить кассу, купить кассу, купить кассовый аппарат, новые кассы, требования к кассам'
+	'content' => 'купить ККТ, купить ККМ, купить кассу недорого, модернизация ККТ, модернизация ККМ, 54 ФЗ, обновить кассу, купить кассу, обновить кассовый аппарат, обновить кассу, купить кассу, купить кассовый аппарат, новые кассы, требования к кассам'
 ]);
 
 ?>
@@ -82,160 +82,7 @@ h2, h3{
 				<a class="btn btn-lg btn-primary" style="margin: 5px;" href="#modernization">&nbsp;&nbsp;&nbsp;&nbsp;Модернизация ККМ&nbsp;&nbsp;&nbsp;&nbsp;</a>
 
 			</div>	
-		</div>
-		<a name="catalogkkm"></a>
-		<div style="padding-top: 40px;">
-			<h1>Купить ККТ<br>
-				<h1>Каталог контрольно-кассового<br>
-					оборудования </h1>
-				<p>Ищите где недорого купить кассовый аппарат? <br>
-					Мы с радостью подберем для вас оптимальный вариант.</p>
-				<p>В нашем каталоге около 300 наименований оборудования, подходящего для разных целей и предназначенного для разных задач. <br>
-					Все цены — закупочные, поэтому у нас вы можете купить ККМ недорого.
-					Фискальные накопители есть в наличии.</p>
-		</div>
-		<style>
-			#catalog p {
-				margin-bottom: 0;
-				font-size: 18px;
-				font-weight: bold;
-			}
-		</style>
-		<div id="catalog">
-			<div class="row" >
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div style="height: 150px;">
-						<img src="img/kkm/atol1.jpg" height="150">
-					</div>
-					<div>
-						<p>АТОЛ 90Ф</p>
-						Современный и удобный контрольно-кассовый аппарат для предприятий с небольшим потоком клиентов.<br>
-						<p>18 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-90f">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/atol2.jpg" height="150">
-					</div>
-					<div>
-						<p>АТОЛ 55Ф</p>
-						Высокая скорость работы позволяет применять устройство в точках с большим потоком покупателей.<br>
-						<p>31 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-55f">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/atol3.jpg" height="150">
-					</div>
-					<div>
-						<p>АТОЛ 11Ф</p>
-						Контрольно-кассовая техника нового поколения, идеально в 2017 году. Устройство полностью соответствует новым требованиям 54ФЗ.<br>
-						<p>26 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-11f">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/atol4.jpg" height="150">
-					</div>
-					<div>
-						<p>АТОЛ 30Ф</p>
-						Компактная модель отлично подходит для торговых точек, предприятий и магазинов небольшого формата.<br>
-						<p>21 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-30f">Купить ККТ</a>
-					</div>
-				</div>
-			</div>
-			<div class="row" >
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div style="height: 150px;">
-						<img src="img/kkm/elves_mf_1.jpg" height="150">
-					</div>
-					<div>
-						<p>ККТ «ЭЛВЕС-МФ»</p>
-						Отлично себя зарекомендовавшая портативная кассовая машина от Компании «ШТРИХ-М».<br>
-						<p>19 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=elves-mf">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/shtrih_light_f.jpg" height="150">
-					</div>
-					<div>
-						<p>ККТ ШТРИХ-ЛАЙТ-01Ф</p>
-						Недорогой фискальный регистратор с функцией передачи данных через интернет.<br>
-						<p>30 500р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=shtrih-lite-01f">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/shtrih_online.jpg" height="150">
-					</div>
-					<div>
-						<p>ККТ ШТРИХ-ON-LINE</p>
-						Отличается эргономичным дизайном, малыми габаритами и привлекательной ценой.<br>
-						<p>21 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=shtrih-online">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/mpay_f_01.jpg" height="150">
-					</div>
-					<div>
-						<p>ККТ ШТРИХ-MPAY-Ф</p>
-						Применяется в обязательном порядке для ИП и ООО для наличных расчетов и расчетов с платежных карт.<br>
-						<p>28 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=shtrih-mpay-f">Купить ККТ</a>
-					</div>
-				</div>
-			</div>
-			<br>
-			<div class="row" >
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div style="height: 150px;">
-						<img src="img/kkm/merk115.jpg" height="150">
-					</div>
-					<div>
-						<p>Меркурий-115Ф</p>
-						Онлайн касса 2017 года, новое поколение переносных кассовых аппаратов завода Инкотекс<br>
-						<p>20 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=merkury-115f">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/merk119.jpg" height="150">
-					</div>
-					<div>
-						<p>Меркурий-119Ф</p>
-						ККТ нового поколения с ФН и онлайн передачей данных в ФНС.<br>
-						<p>30 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=merkury-119f">Купить ККТ</a>
-					</div>
-				</div>
-				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
-					<div  style="height: 150px;">
-						<img src="img/kkm/merk185.jpg" height="150">
-					</div>
-					<div>
-						<p>Меркурий-185Ф</p>
-						ККТ нового поколения с ФН и онлайн передачей данных в ФНС.<br>
-						<p>20 000р.</p>
-						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=merkury-185f">Купить ККТ</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br>
-		<p>У нас вы можете купить кассовый аппарат с передачей данных онлайн для ИП, ООО и других видов организационных форм.</p>
-		<p>На сайте представлено лишь несколько наименований продукции.
-			Для того, чтобы подобрать наиболее подходящее решение и купить ККТ недорого, вы можете скачать полный каталог или обратиться за консультацией к специалисту.
-		</p>
+		</div>		
 
 		<a name="modernization"></a>
 		<div style="padding-top: 40px;">
@@ -285,6 +132,158 @@ h2, h3{
 				</div>				
 			</div>
 		</div>
+		<a name="catalogkkm"></a>
+		<div style="padding-top: 40px;">
+			<h1>Купить ККТ<br>
+			<h1>Каталог контрольно-кассового<br>
+			оборудования </h1>
+			<p>Ищите где недорого купить кассовый аппарат? <br>
+Мы с радостью подберем для вас оптимальный вариант.</p>
+			<p>В нашем каталоге около 300 наименований оборудования, подходящего для разных целей и предназначенного для разных задач. <br>
+Все цены — закупочные, поэтому у нас вы можете купить ККМ недорого.
+Фискальные накопители есть в наличии.</p>
+		</div>
+		<style>
+		#catalog p {
+			margin-bottom: 0;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		</style>
+		<div id="catalog">
+			<div class="row" >
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div style="height: 150px;">
+						<img src="img/kkm/atol1.jpg" height="150">
+					</div>
+					<div>
+						<p>АТОЛ 90Ф</p>
+						Современный и удобный контрольно-кассовый аппарат для предприятий с небольшим потоком клиентов.<br>
+						<p>18 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-90f">Купить ККТ</a>
+					</div>
+				</div>
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/atol2.jpg" height="150">
+					</div>
+					<div>
+						<p>АТОЛ 55Ф</p>
+						Высокая скорость работы позволяет применять устройство в точках с большим потоком покупателей.<br>
+						<p>31 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-55f">Купить ККТ</a>
+					</div>
+				</div>
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/atol3.jpg" height="150">
+					</div>
+					<div>
+						<p>АТОЛ 11Ф</p>
+						Контрольно-кассовая техника нового поколения, идеально в 2017 году. Устройство полностью соответствует новым требованиям 54ФЗ.<br>
+						<p>26 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-11f">Купить ККТ</a>
+					</div>
+				</div>				
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/atol4.jpg" height="150">
+					</div>
+					<div>
+						<p>АТОЛ 30Ф</p>
+						Компактная модель отлично подходит для торговых точек, предприятий и магазинов небольшого формата.<br>
+						<p>21 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=atol-30f">Купить ККТ</a>
+					</div>
+				</div>				
+			</div>
+			<div class="row" >
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div style="height: 150px;">
+						<img src="img/kkm/elves_mf_1.jpg" height="150">
+					</div>
+					<div>
+						<p>ККТ «ЭЛВЕС-МФ»</p>
+						Отлично себя зарекомендовавшая портативная кассовая машина от Компании «ШТРИХ-М».<br>
+						<p>19 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=elves-mf">Купить ККТ</a>
+					</div>
+				</div>
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/shtrih_light_f.jpg" height="150">
+					</div>
+					<div>
+						<p>ККТ ШТРИХ-ЛАЙТ-01Ф</p>
+						Недорогой фискальный регистратор с функцией передачи данных через интернет.<br>
+						<p>30 500р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=shtrih-lite-01f">Купить ККТ</a>
+					</div>
+				</div>
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/shtrih_online.jpg" height="150">
+					</div>
+					<div>
+						<p>ККТ ШТРИХ-ON-LINE</p>
+						Отличается эргономичным дизайном, малыми габаритами и привлекательной ценой.<br>
+						<p>21 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=shtrih-online">Купить ККТ</a>
+					</div>
+				</div>				
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/mpay_f_01.jpg" height="150">
+					</div>
+					<div>
+						<p>ККТ ШТРИХ-MPAY-Ф</p>
+						Применяется в обязательном порядке для ИП и ООО для наличных расчетов и расчетов с платежных карт.<br>
+						<p>28 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=shtrih-mpay-f">Купить ККТ</a>
+					</div>
+				</div>				
+			</div>
+			<br>
+			<div class="row" >
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div style="height: 150px;">
+						<img src="img/kkm/merk115.jpg" height="150">
+					</div>
+					<div>
+						<p>Меркурий-115Ф</p>
+						Онлайн касса 2017 года, новое поколение переносных кассовых аппаратов завода Инкотекс<br>
+						<p>20 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=merkury-115f">Купить ККТ</a>
+					</div>
+				</div>
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/merk119.jpg" height="150">
+					</div>
+					<div>
+						<p>Меркурий-119Ф</p>
+						ККТ нового поколения с ФН и онлайн передачей данных в ФНС.<br>
+						<p>30 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=merkury-119f">Купить ККТ</a>
+					</div>
+				</div>
+				<div class="col-sx-12 col-sm-3 col-md-3 col-lg-3" >
+					<div  style="height: 150px;">
+						<img src="img/kkm/merk185.jpg" height="150">
+					</div>
+					<div>
+						<p>Меркурий-185Ф</p>
+						ККТ нового поколения с ФН и онлайн передачей данных в ФНС.<br>
+						<p>20 000р.</p>
+						<a class="btn btn-sm btn-primary" style="margin: 5px;" href="buy-kkt?model=merkury-185f">Купить ККТ</a>
+					</div>
+				</div>				
+			</div>			
+		</div>
+		<br>
+		<p>У нас вы можете купить кассовый аппарат с передачей данных онлайн для ИП, ООО и других видов организационных форм.</p>
+			<p>На сайте представлено лишь несколько наименований продукции. 
+Для того, чтобы подобрать наиболее подходящее решение и купить ККТ недорого, вы можете скачать полный каталог или обратиться за консультацией к специалисту.</p>
     </div>
 
     <div class="body-content">
